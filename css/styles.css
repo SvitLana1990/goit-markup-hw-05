@@ -124,7 +124,7 @@ img {
     height: 4px;
     border-radius: 2px;
     background-color: var(--hover-background);
-    transition: color var(--transition);
+    transition: transform var(--transition), color var(--transition);
 }
 
 .header-link:hover::after,
