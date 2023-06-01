@@ -236,13 +236,14 @@ img {
     margin-top: 48px;
     border: none;
     border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     transition: background-color var(--transition);
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--hover-background);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
 }
 
 .hero-btn {
@@ -278,7 +279,7 @@ img {
 .hero-btn:focus {
     background-color: var(--hover-background);
     color: var(--white-color);
-    border-color: 1px solid transparent;
+    border-color: transparent;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
@@ -550,17 +551,8 @@ img {
     color: var(--hover-background);
 }
 
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
-    fill: var(--hover-background);
-    color: var(--hover-background);
-}
-
 .customers-icon {
-    width: 104px;
-    height: 56px;
     fill: currentColor;
-    transition: color var(--transition), fill var(--transition);
 }
 
 /* -----FOOTER----- */
